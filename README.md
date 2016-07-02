@@ -15,10 +15,17 @@ paste this line on your html code.
 <link rel="stylesheet" href="http://arlora.co.nf/projects/libs/squared/squared.css">
 ```
 
+### How to use:
 
-### Set classes to elements
+All of the css classes included in this library has common characteristics:
+- classes start with sq (declaring its a squared.css class) so that if you're using multiple libraries, it doesn't interfere.
+- sq classes are followed by the class description indicating the style to be added to the element
+- sq class descriptions are seperated by one or more hyphens(-)
 
-Add the `data-scroll-class` attribute to any element/elements that you wish to target and set a class name as the value.
+ex:
+
+If you want to add a shadow effect on an header, simple add the class 'sq-textshadow' to the header element, and it will show up with a shadow.
+
 
 ```html
 <div class="example" data-scroll-class="my-class"></div>
