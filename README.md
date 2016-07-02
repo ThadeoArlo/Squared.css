@@ -7,8 +7,9 @@ The library was made using CSS3 so it would surely work with all modern browsers
 [view example](http://arlora.co.nf/projects/libs/squared/)
 
 
-### Embed code
-
+### Applying the code
+download squared.css
+or,
 paste this line on your html code.
 
 ```html
