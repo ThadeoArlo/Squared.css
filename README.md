@@ -14,6 +14,8 @@ paste this line on your html code.
 
 ```html
 <link rel="stylesheet" href="http://arlora.co.nf/projects/libs/squared/squared.css">
+Or,
+<link rel="stylesheet" href="http://arlora.co.nf/projects/libs/squared/squared.min.css">
 ```
 
 ### How to use:
