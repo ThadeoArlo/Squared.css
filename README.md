@@ -20,7 +20,7 @@ paste this line on your html code.
 
 All of the css classes included in this library has common characteristics:
 - classes start with sq (declaring its a squared.css class) so that if you're using multiple libraries, they don't interfere.
-- sq classes are followed by the class description indicating the style to be added to the element
+- sq classes are followed by the class description indicating the style to be applied to the element
 - sq class descriptions are seperated by one or more hyphens(-)
 
 ex:
