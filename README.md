@@ -8,8 +8,6 @@ The library was made using CSS3 so it would surely work on all modern browsers. 
 
 ## Usage
 
-### Initialization
-
 Pass a class name to the selector to initialize the plugin. Elements with the chosen class name will be targeted on scroll. 
 
 ```js
