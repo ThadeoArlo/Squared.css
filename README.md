@@ -26,34 +26,19 @@ ex:
 
 If you want to add a shadow effect on an header, simple add the class 'sq-textshadow' to the header element, and it will show up with a shadow.
 
-
 ```html
-<div class="example" data-scroll-class="my-class"></div>
+<h1 class="sq-textshadow">Hello World</h1>
 ```
 
-In the example above, `my-class` will be added to the class attribute of the element when it enters the viewport. (Multiple class names can be added to the data attribute.)
+The example above shows that the text inside the element "h1" will have a shadow effect. 
 
-##Plugin Options
+To know all the classes and what they do, you can go ahead and look at the css file, it has comments so that you could easily understand the code.
 
-- `delay`: Target an element after x number of milliseconds. Adding a delay is recommended for better performance. `20` is set by default. Set to `false` or `0` to disable.
-- `threshold`: Target an element when x percent of it is visible in the viewport. Works when scrolling down or up. `50` is set by default. Do not add a percentage sign when setting the threshold.
-- `offsetTop`: Number of pixels to offset elements from the top of the window. Useful when a page has a fixed top navigation bar. `0` is set by default. 
-- `callback`: Fire a callback after an element is targeted.
+##Customize
 
-Initialization example with all options set:
+If you want to make some custom edits to your code or making an element unique while still having the library, you can download and customize the code to what suit you best, or simply adding an id to your element and store all the unique element css in a seperate css file named custom.css (my suggestion). 
 
-```js
-$(document).ready(function() {
-  $('.example').scrollClass({
-    delay: 20, //set class after 20 milliseconds delay
-    threshold: 50, //set class when 50% of element enters the viewport
-    offsetTop: 80, //height in pixels of a fixed top navbar
-    callback: function () { //fire a callback
-      console.log('Callback fired!');
-    }
-  });
-});
-```
+
 ##Example
 [View Example](http://arlora.co.nf/projects/libs/squared/)
 
