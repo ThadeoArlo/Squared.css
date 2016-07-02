@@ -6,15 +6,15 @@ The library was made using CSS3 so it would surely work on all modern browsers. 
 
 [view example](http://arlora.co.nf/projects/libs/squared/)
 
-## Usage
 
-Pass a class name to the selector to initialize the plugin. Elements with the chosen class name will be targeted on scroll. 
+### Embed code
 
-```js
-$(document).ready(function() {
-  $('.example').scrollClass();
-});
+paste this line on your html code.
+
+```html
+<link rel="stylesheet" href="http://arlora.co.nf/projects/libs/squared/squared.css">
 ```
+
 
 ### Set classes to elements
 
