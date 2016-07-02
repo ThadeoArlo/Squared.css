@@ -2,7 +2,7 @@
 
 A light-weight css library for simple web design
 
-The library was made using CSS3 so it would surely work on all modern browsers. It is suitable for web developers who wants a simple and light-weight website that could be built very quickly, beginners can also use this library to learn html easily.
+The library was made using CSS3 so it would surely work with all modern browsers. It is suitable for web developers who wants a simple and light-weight website that could be built very quickly, beginners can also use this library to learn html easily.
 
 [view example](http://arlora.co.nf/projects/libs/squared/)
 
