@@ -33,7 +33,7 @@ If you want to add a shadow effect on an header, simple add the class 'sq-textsh
 
 The example above shows that the text inside the element "h1" will have a shadow effect. 
 
-To know all the classes and what they do, you can go ahead and look at the css file, it has comments so that you could easily understand the code.
+To know all the classes and what they do, you can go ahead and look at the css file,  it has comments so that you could easily understand the code.
 
 ##Customize
 
