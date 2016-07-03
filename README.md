@@ -45,7 +45,7 @@ If you want to make some custom edits to your code or making an element unique w
 ##Example
 [View Example](http://arlora.co.nf/projects/libs/squared/)
 
-##Contributions
+##Contribute
 
 Kindly report any bug to be fixed in the comment issue.
 
