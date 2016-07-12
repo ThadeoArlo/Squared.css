@@ -2,7 +2,6 @@
 @import url("http://fonts.googleapis.com/css?family=Lato:400,300,100,700,900&subset=latin,latin-ext");
 body {text-align:center;}
 hr {width:10vw;margin-top:2%;margin:auto;}
-img {background-size:cover;max-width:100%;max-height:100%;margin:auto;display:block;}
 * {margin:0;padding:0;box-sizing:border-box;}
 @media only screen and (max-width:500px) {
   .sq-btn {
@@ -19,11 +18,20 @@ img {background-size:cover;max-width:100%;max-height:100%;margin:auto;display:bl
 }
 /*----------TEXT----------*/
 .sq-textshadow {text-shadow: 1px 1px 50px #212121;}
-h1 {font-size:6vmax;font-family:'lato',sans-serif;font-weight:600;letter-spacing:5px;text-transform:uppercase;}
-h2 {font-size:3vmax;font-family:'lato',sans-serif;font-weight:600;letter-spacing:5px;text-transform:uppercase;}
-p {font-size:20px;font-family:'Lato',sans-serif;letter-spacing:2px;}
-a {font-size:20px;font-family:'Lato',sans-serif;letter-spacing:2px;color:#1976D2;text-decoration:none;cursor:pointer;}
+h1 {font-size:4em;font-family:'lato',sans-serif;font-weight:600;letter-spacing:5px;text-transform:uppercase;}
+h2 {font-size:2em;font-family:'lato',sans-serif;font-weight:600;letter-spacing:5px;text-transform:uppercase;}
+h3 {font-size:1.5em;font-family:'lato',sans-serif;font-weight:600;letter-spacing:5px;text-transform:uppercase;}
+p {font-size: 20px;font-family:'Lato',sans-serif;letter-spacing:2px;font-weight:300;}
+.sq-h1 {font-size:4em;font-family:'lato',sans-serif;font-weight:600;letter-spacing:5px;text-transform:uppercase;}
+.sq-h2 {font-size:2em;font-family:'lato',sans-serif;font-weight:600;letter-spacing:5px;text-transform:uppercase;}
+.sq-h3 {font-size:1.5em;font-family:'lato',sans-serif;font-weight:600;letter-spacing:5px;text-transform:uppercase;}
+.sq-p {font-size: 20px;font-family:'Lato',sans-serif;letter-spacing:2px;font-weight:300;}
+a {text-decoration:none;}
 .sq-margin {margin:3%;}
+.sq-margin-top {margin-top:3%;}
+.sq-margin-bottom {margin-bottom:3%;}
+.sq-margin-left {margin-left:3%;}
+.sq-margin-right {margin-right:3%;}
 /*----------CARDS----------*/
 .sq-container-whole {float:left;width:100%;}
 .sq-container-halfs {float:left;width:50%;}
@@ -44,7 +52,7 @@ a {font-size:20px;font-family:'Lato',sans-serif;letter-spacing:2px;color:#1976D2
 .sq-border {border:2px solid white;}
 .sq-noborder {border: none;}
 /*----------BACKGROUNDS----------*/
-.sq-bg-img {background-repeat:no-repeat;-webkit-background-size:fit;-moz-background-size:fit;-o-background-size:fit;background-size:fit;background-position:center;}
+.sq-bg-img {background-repeat:no-repeat;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;background-position:center;}
 .sq-bg-transparent {background:transparent;}
 .sq-bg-white {background:white;}
 .sq-bg-red1 {background:#e57373;}
