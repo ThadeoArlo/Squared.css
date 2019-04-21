@@ -1,0 +1,23 @@
+/*----------CUSTOMS----------*/
+#qlogo {
+  width:100px;
+  height:100px;
+}
+@media only screen and (max-width:500px) {
+  #referencebtn {
+    width:98vw !important;
+    height:20vw !important;
+  }
+  #btnpic {
+    width: 8vmax !important;
+    height: 8vmax !important;
+  }
+}
+#gitlogo {
+  width:200px;
+  height: auto;
+}
+#btnpic {
+  width: 3vmax;
+  height: 3vmax;
+}
